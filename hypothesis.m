@@ -4,5 +4,5 @@
 % m - number of records, n - number of features
 % Returns predictions.
 function [predictions] = hypothesis(X, theta)
-  predictions = sigmoid(X * theta);
- end
+  predictions = sigmoid(X .* theta);
+end
