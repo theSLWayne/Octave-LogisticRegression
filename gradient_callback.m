@@ -5,10 +5,11 @@
 % y - Training outputs
 % theta - Model Parameters
 % lambda - regularization parameter
+% Returns cost and gradients.
 function [cost, gradients] = gradient_callback(X, y, theta, lambda)
   % Calculate cost
-  cost = logreg_cost(X, y, theta, lambda)
+  cost = logreg_cost(X, y, theta, lambda);
   
   % Do one gradient step
-  gradients = gradient_step(X, y, theta, lambda)
+  gradients = gradient_step(X, y, theta, lambda);
 end
