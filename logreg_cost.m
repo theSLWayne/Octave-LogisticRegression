@@ -18,5 +18,5 @@ function [cost] = logreg_cost(X, y, theta, lambda);
   reg_param = lambda / (2 * m) * (reg_thetas' .* reg_thetas);
   
   % Calculate Regularized Cost function
-  cost = (-1 / m) * (y' .* log(preds) + (1 - y)' .* log(1 - preds)) + reg_param;
+  cost = (-1 / m) * (y' * log(preds) + (1 - y)' * log(1 - preds)) + reg_param;
 end
