@@ -19,8 +19,8 @@ function [gradients] = gradient_step(X, y, theta, lambda)
   regularization = (lambda / m) * theta;
   
   % Calculate grdient step
-  gradients = (1 / m) * (X' .* (predictions - y)) + regularization;
+  gradients = (1 / m) * (X' * (predictions - y)) + regularization;
   
   % Ignoring regularization in theta_zero parameter.
-  gradients(1) = (1 / m) * (X(:, 1)' .* (predictions - y));
+  gradients(1) = (1 / m) * (X(:, 1)' * (predictions - y));
 end
