@@ -38,6 +38,16 @@ Gradient descent is an iterative optimization algorithm for finding the minimum 
 
 
 ## Files
+- [accuracy.m](accuracy.m)- Function checking the accuracy of the trained model.
+- [demo.m](demo.m) - Demo of Logistic Regression done with IRIS dataset.
+- [gradient_callback.m](gradient_callback.m) - Function aggregating gradient step.
+- [gradient_step](gradient_Step.m) - Function performing one step of the gradient descent.
+- [hypothesis](hypothesis.m) - Function to calculate the hypothesis.
+- [l_reg.m](l_reg.m) - Training the Logistic Regression model.
+- [logreg_cost.m](logreg_cost.m) - Function to calculate the logistic regression cost
+- [predict_l_reg.m](predict_l_reg) - Function that makes predictions using trained model.
+- [radableCSV.py](readableCSV.py) - Python script to convert string values(IRIS Species) into numericals because *csvread* does not support string values to be read.
+- [sigmoid.m](sigmoid.m) - The function that performs the sigmoid values.
 
 ## How to run
 
