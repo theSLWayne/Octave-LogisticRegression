@@ -51,4 +51,15 @@ Gradient descent is an iterative optimization algorithm for finding the minimum 
 
 ## How to run
 
+1. Clone the repository.
+2. Go to the folder *data* and check whether there is a *readableIris.csv*. If there is not, run ` python readableCSV.py` and let it create the CSV file for you.
+3. Make sure you have every file listed on the [files](##files) section.
+4. Open Octave on your computer. Inside Octave, navigate to the folder you've cloned the repository to(the folder containing *demo.m* to be precise) using `cd` command.
+5. Type `demo` on the command window of Octave.
+6. Navigate through the demo according to the guidelines provided by the program.
+
 ## References
+
+- [Machine Learning - Coursera (Andrew Ng)](https://www.coursera.org/learn/machine-learning)
+- [Logistic Regression on trekhleb/machine-learning-octave](https://github.com/trekhleb/machine-learning-octave/tree/master/logistic-regression)
+- [Logistic Regression on Wikipedia](https://en.wikipedia.org/wiki/Logistic_regression)
